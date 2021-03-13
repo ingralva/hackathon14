@@ -1,0 +1,44 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Tecnicas de programacion",
+      "visitas": 1,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla error odit ipsum quibusdam, amet hic voluptatum corrupti praesentium quia itaque laboriosam suscipit obcaecati aut, fugiat sunt debitis deleniti laudantium!"
+    },
+    {
+      "id": 2,
+      "titulo": "Tecnicas de programacion",
+      "visitas": 3,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla error odit ipsum quibusdam, amet hic voluptatum corrupti praesentium quia itaque laboriosam suscipit obcaecati aut, fugiat sunt debitis deleniti laudantium!"
+    },
+    {
+      "id": 3,
+      "titulo": "Tecnicas de programacion",
+      "visitas": 0,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla error odit ipsum quibusdam, amet hic voluptatum corrupti praesentium quia itaque laboriosam suscipit obcaecati aut, fugiat sunt debitis deleniti laudantium!"
+    },
+    {
+      "id": 4,
+      "titulo": "Tecnicas de programacion",
+      "visitas": 1,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla error odit ipsum quibusdam, amet hic voluptatum corrupti praesentium quia itaque laboriosam suscipit obcaecati aut, fugiat sunt debitis deleniti laudantium!"
+    },
+    {
+      "id": 5,
+      "titulo": "Tecnicas de programacion",
+      "visitas": 0,
+      "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla error odit ipsum quibusdam, amet hic voluptatum corrupti praesentium quia itaque laboriosam suscipit obcaecati aut, fugiat sunt debitis deleniti laudantium!"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
