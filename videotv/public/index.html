@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="css/modal.css">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+        <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content-s">
+          <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Modal Header</h2>
+          </div>
+          <div class="modal-body">
+              <table>
+                  <tr>
+                      <td>Nombre</td>
+                      <td><input type="text" name="txtNombre" id="txtNombre"></td>
+                      <td>Teléfono</td>
+                      <td><input type="text" name="txtTelefono" id="txtTelefono"></td>
+                  </tr>
+                  <tr>
+                      <td>Correo</td>
+                      <td><input type="email" name="txtCorreo" id="txtCorreo"></td>
+                      <td>Pais</td>
+                      <td><input type="text" name="txtPais" id="txtPais"></td>
+                  </tr>
+                  <tr>
+                      <td>Información</td>
+                      <td colspan="3"><textarea name="txtInformacion" id="txtInformacion" cols="60" rows="5"></textarea></td>
+                  </tr>                    
+              </table>
+              <input type="button" value="Agregar" id="btnAgregar">
+              <input type="button" value="Modificar" id="btnModificar">
+          </div>
+          <div class="modal-footer">
+              <h3>Modal Footer</h3>
+          </div>
+      </div>
+  </div>
+
+    <script src="js/modal.js"></script>
+    <script src="js/procesos.js"></script>
+  </body>
+</html>
